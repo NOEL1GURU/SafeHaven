@@ -4,5 +4,5 @@ def symptom_checker():
     if response == "yes":
         return "Possible STI. Visit a clinic."
     return "Monitor your health."
-
+print("Welcome to SafeHaven!")
 print(symptom_checker())
